@@ -834,6 +834,8 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -869,6 +871,31 @@ a:hover {
   height: 0.7rem;
   background-color: #0078ff;
 }
+
+
+.skills{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  align-content: center;
+  justify-content: center;
+  margin: 30px 0 30px 0;
+  padding: 0;
+}
+
+.big-skill-img{
+  width: 70px;
+  margin: 0 25px 5px 25px;
+  text-align: center;
+}
+
+.little-skill-img{
+  width: 30px;
+  margin: 0 25px 30px 25px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Services
@@ -946,6 +973,10 @@ a:hover {
   margin-bottom: 0;
 }
 
+#main{
+  margin-bottom: 40px;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -954,6 +985,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+
 }
 
 .work-box:hover img {
@@ -963,6 +995,18 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  height:100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.portfolio-img{
+  max-height: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .work-img img {
@@ -970,7 +1014,8 @@ a:hover {
 }
 
 .work-content {
-  padding: 2rem 3% 1rem 4%;
+  padding: 1rem 3% 1rem 4%;
+
 }
 
 .work-content .w-more {
@@ -1063,6 +1108,12 @@ a:hover {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.portfolio-lightbox{
+  display: block;
+  
+  max-height: 75%;
 }
 
 /*--------------------------------------------------------------
