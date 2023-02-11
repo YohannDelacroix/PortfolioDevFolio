@@ -884,6 +884,10 @@ a:hover {
   padding: 0;
 }
 
+.skills li{
+  margin:auto;
+}
+
 .big-skill-img{
   width: 70px;
   margin: 0 25px 5px 25px;
